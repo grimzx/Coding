@@ -11,6 +11,7 @@ int ex12()
         for (j = 2; j < i; j++) {
             if (i % j == 0) {
                 prim = 0;
+                break;
             }
         }
         if (nr > 1 && prim) {
